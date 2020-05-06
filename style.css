@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+.container {
+    height: auto;
+    width: auto;
+}
+header {
+    float: left;
+}
+nav {
+    height: 50px;
+    width: auto;
+	font-family: "Aktiv Grotesk Cd", "Adrianna Condensed";
+    font-size: 25px;
+	font-weight: lighter;
+    text-align: center;
+	text-shadow: 0px 0px 25px #85BCB0;
+    background: #EEF0E1;
+    color: #5B273E;
+    word-spacing: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 50px #85BCB0;
+	box-shadow: 0px 0px 50px #85BCB0;
+}
+section {
+	width: 500px;
+	height: 500px;
+	float: left;
+	margin: auto;
+}
+.right {
+    background-color: #EEF0E1;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: 10px solid #5B273E;
+    -webkit-box-shadow: 0px 0px 10px 5px #5B273E;
+    box-shadow: 0px 0px 10px 5px #5B273E;
+}
+.center {
+    background-color: #EEF0E1;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: 10px solid #5B273E;
+    -webkit-box-shadow: 0px 0px 10px 5px #5B273E;
+    box-shadow: 0px 0px 10px 5px #5B273E;
+}
+.left  {
+    background-color: #EEF0E1;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border: 10px solid #5B273E;
+    -webkit-box-shadow: 0px 0px 10px 5px #5B273E;
+    box-shadow: 0px 0px 10px 5px #5B273E;	
+}
+h1 {
+    color: #5B273E;
+    font-family: "Aktiv Grotesk Cd", "Adrianna Condensed";
+    text-align: center;
+    padding-top: 50px;	
+}
+p {
+    color: #5B273E;
+    font-family: "Adrianna Condensed", "Aktiv Grotesk Cd";
+    font-style: normal;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+    text-shadow: 0 0px #5B273E;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+li {
+    color: #5B273E;
+    font-family: "Aktiv Grotesk Cd", "Adrianna Condensed";
+    font-style: italic;
+    font-weight: normal;
+    font-size: large;	
+}
+.image {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer {
+    color: #5B273E;
+    height: 150px;
+	width: 100%;
+    text-align: center;
+    font-size: medium;
+    background-color: #EEF0E1;
+    clear: both;
+    float: left;
+    -webkit-box-shadow: 0px 0px 40px #85BCB0;
+    box-shadow: 0px 0px 40px #85BCB0;
+}

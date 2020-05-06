@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+	<title>Micro-Sprout</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>jQuery UI Tooltip - Forms</title>
+  		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  		<link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  label {
+    display: inline-block; width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+  .ui-tooltip {
+    width: 210px;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    var tooltips = $( "[title]" ).tooltip({
+      position: {
+        my: "left top",
+        at: "right+5 top-5",
+        collision: "none"
+      }
+    });
+    $( "<button>" )
+      .text( "Tips" )
+      .button()
+      .on( "click", function() {
+        tooltips.tooltip( "open" );
+      })
+      .insertAfter( "form" );
+  } );
+  </script>
+</head>
+
+	<div class="container">
+	<body> 
+	<header>
+		<img src="assets/logo.png" alt="logo" width="200" height="200">
+	</header>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="knowledge.html">Knowledge</a>
+		<a href="downloads.html">Downloads</a>
+	</nav>
+	<section class="center">
+		<p>Here at Micro-Sprout we are all about getting together and making a small impact with big results. If you would like to get a hold of us please contact us via email at microsproutsupport@microsprout.com or visit our social media pages on Instagram, Twitter, and Facbebook. If you have an idea for a feature article you would like our team to cover please reach out to us via any method of your choice listed above.</p>
+		<h1>Please Enter Your Email Below For Our Monthly Research Updates</h1>
+	<form>
+ 		<fieldset>
+    	<div>
+      		<label for="firstname">First Name</label>
+      		<input id="firstname" name="firstname" title="Please provide your first name.">
+    	</div>
+    	<div>
+      		<label for="lastname">Last Name</label>
+      		<input id="lastname" name="lastname" title="Please provide your last name.">
+    	</div>
+    	<div>
+      		<label for="address">Email</label>
+      		<input id="address" name="address" title="Please provide your email.">
+    	</div>
+  		</fieldset>
+	</form>
+	</section>
+	<section class="footer">
+		<p>Micro-Sprout 2020 &#169;</p>
+	</section>
+	</body>
+	</div>
+</html>
